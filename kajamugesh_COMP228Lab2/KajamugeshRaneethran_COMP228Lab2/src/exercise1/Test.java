@@ -53,7 +53,7 @@ public class Test {
 		Random randomObject = new Random();
 		String message;
 		if (correct) {
-			message = switch (randomObject.nextInt(3)) {
+			message = switch (randomObject.nextInt(4)) {
 			case 0 -> "Excellent!";
 			case 1 -> "Good!";
 			case 2 -> "Keep up the good work!";
@@ -62,7 +62,7 @@ public class Test {
 			};
 			this.correct += 1;
 		} else {
-			message = switch (randomObject.nextInt(3)) {
+			message = switch (randomObject.nextInt(4)) {
 			case 0 -> "No. Please try again";
 			case 1 -> "Wrong. Try once more";
 			case 2 -> "Don't give up!";

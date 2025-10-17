@@ -14,7 +14,7 @@ abstract class Insurance {
 	}
 	
 	abstract public void setInsuranceCost(double cost);
-	abstract public void display();	
+	abstract public void displayInfo();	
 
 }
 
@@ -32,8 +32,8 @@ class Health extends Insurance {
 	}
 
 	@Override
-	public void display() {
-		System.out.printf("Life insurance with a monthly cost of $%f\n", monthly_cost);
+	public void displayInfo() {
+		System.out.printf("Life insurance with a monthly cost of $%.2f\n", monthly_cost);
 		
 	}
 	
@@ -54,8 +54,8 @@ class Life extends Insurance {
 	}
 
 	@Override
-	public void display() {
-		System.out.printf("Life insurance with a monthly cost of $%f\n", monthly_cost);
+	public void displayInfo() {
+		System.out.printf("Life insurance with a monthly cost of $%.2f\n", monthly_cost);
 		
 	}
 	

@@ -41,7 +41,7 @@ public class Driver {
 		scanner.close();
 		
 		for (int i = 0; i < insurances.size(); i++) {
-			insurances.get(i).display();
+			insurances.get(i).displayInfo();
 			
 		}
 
